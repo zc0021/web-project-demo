@@ -1,0 +1,12 @@
+datasource:
+  username: root
+  password: root
+  host: 127.0.0.1:3306
+redis:
+  domain: 127.0.0.1
+  password: 6379
+http:
+  security:
+    user: root
+    password: root
+    matches: /api/*,/apis/*
